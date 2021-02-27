@@ -1,0 +1,143 @@
+{
+    "ResourceRecordSets": [
+        {
+            "Name": "kicksaw.com.",
+            "Type": "A",
+            "TTL": 60,
+            "ResourceRecords": [
+                {
+                    "Value": "44.241.53.48"
+                }
+            ]
+        },
+        {
+            "Name": "kicksaw.com.",
+            "Type": "MX",
+            "TTL": 60,
+            "ResourceRecords": [
+                {
+                    "Value": "1 ASPMX.L.GOOGLE.COM"
+                },
+                {
+                    "Value": "5 ALT1.ASPMX.L.GOOGLE.COM"
+                },
+                {
+                    "Value": "5 ALT2.ASPMX.L.GOOGLE.COM"
+                },
+                {
+                    "Value": "10 ALT3.ASPMX.L.GOOGLE.COM"
+                },
+                {
+                    "Value": "10 ALT4.ASPMX.L.GOOGLE.COM"
+                }
+            ]
+        },
+        {
+            "Name": "kicksaw.com.",
+            "Type": "NS",
+            "TTL": 172800,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-1810.awsdns-34.co.uk."
+                },
+                {
+                    "Value": "ns-106.awsdns-13.com."
+                },
+                {
+                    "Value": "ns-898.awsdns-48.net."
+                },
+                {
+                    "Value": "ns-1359.awsdns-41.org."
+                }
+            ]
+        },
+        {
+            "Name": "kicksaw.com.",
+            "Type": "SOA",
+            "TTL": 900,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-1810.awsdns-34.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                }
+            ]
+        },
+        {
+            "Name": "kicksaw.com.",
+            "Type": "TXT",
+            "TTL": 60,
+            "ResourceRecords": [
+                {
+                    "Value": "\"google-site-verification=iuz7UJMP-VJiAe4hNf3UWnMhqT_2iaJ5y7S_QgwC95A\""
+                }
+            ]
+        },
+        {
+            "Name": "s1._domainkey.kicksaw.com.",
+            "Type": "CNAME",
+            "TTL": 60,
+            "ResourceRecords": [
+                {
+                    "Value": "s1.domainkey.u8434134.wl135.sendgrid.net"
+                }
+            ]
+        },
+        {
+            "Name": "s2._domainkey.kicksaw.com.",
+            "Type": "CNAME",
+            "TTL": 60,
+            "ResourceRecords": [
+                {
+                    "Value": "s2.domainkey.u8434134.wl135.sendgrid.net"
+                }
+            ]
+        },
+        {
+            "Name": "em953.kicksaw.com.",
+            "Type": "CNAME",
+            "TTL": 60,
+            "ResourceRecords": [
+                {
+                    "Value": "u8434134.wl135.sendgrid.net"
+                }
+            ]
+        },
+        {
+            "Name": "learning.kicksaw.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "kicksaw.thinkific.com"
+                }
+            ]
+        },
+        {
+            "Name": "staging.kicksaw.com.",
+            "Type": "A",
+            "AliasTarget": {
+                "HostedZoneId": "Z1H1FL5HABSF5",
+                "DNSName": "dualstack.kicksaw-staging-1032008945.us-west-2.elb.amazonaws.com.",
+                "EvaluateTargetHealth": false
+            }
+        },
+        {
+            "Name": "static.kicksaw.com.",
+            "Type": "A",
+            "AliasTarget": {
+                "HostedZoneId": "Z2FDTNDATAQYW2",
+                "DNSName": "d1ce39iepy68vn.cloudfront.net.",
+                "EvaluateTargetHealth": false
+            }
+        },
+        {
+            "Name": "www.kicksaw.com.",
+            "Type": "CNAME",
+            "TTL": 60,
+            "ResourceRecords": [
+                {
+                    "Value": "kicksaw.com"
+                }
+            ]
+        }
+    ]
+}

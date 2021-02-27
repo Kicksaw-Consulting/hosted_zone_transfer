@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hosted_zone_transfer"
+version = "0.1.0"
+description = ""
+authors = ["Timothy Sabat <timothy.sabat@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^7.1.2"
+
+[tool.poetry.dev-dependencies]
+click = "^7.1.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
