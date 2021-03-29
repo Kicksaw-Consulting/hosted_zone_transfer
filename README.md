@@ -2,7 +2,7 @@
 
 We have to move a handful of hosted zones from one account to another. The process is tedious and we'd like a tool that handles the json parsing process that otherwise is done by hand.
 
-### Technical Requirements
+### Part 1: CLI Script
 
 Your script will be specifically automating the json transformation required in step 4 of [this document](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/hosted-zones-migrating.html#hosted-zones-migrating-edit-records)
 
@@ -13,6 +13,11 @@ A sample of the output from `list-resource-record-sets` lives at `example_zone.j
 Your solution will use the [click](https://click.palletsprojects.com/en/7.x/) framework to define input and will output the json to standard out. A poetry toml file is included for your requirements. A sample json file (`import.py`) has been provided with the basics of Click already set up.
 
 Your solution will work in Python 3.8 or greater.
+
+### Part 2: Django App
+
+Take the library you made in the previous step and create a Django website to receive input and display the output.
+
 
 ### Supporting files
 
