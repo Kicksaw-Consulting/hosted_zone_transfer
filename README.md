@@ -16,8 +16,7 @@ Your solution will work in Python 3.8 or greater.
 
 ### Part 2: Django App
 
-Take the library you made in the previous step and create a Django website to receive input and display the output.
-
+Take the library you made in the previous step and create a one-page Django website to receive input and display the output. The page should have a form with which you'll submit the untransformed JSON, and after submitting it should show the transformed results.
 
 ### Supporting files
 
