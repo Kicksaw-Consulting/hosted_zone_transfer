@@ -18,6 +18,10 @@ Your solution will work in Python 3.8 or greater.
 
 Take the library you made in the previous step and create a one-page Django website to receive input and display the output. The page should have a form with which you'll submit the untransformed JSON, and after submitting it should show the transformed results.
 
+### Part 3: Bonus Points
+
+Deploy the application to the PAS provider of your choice.  
+
 ### Supporting files
 
 The `import.py` file has been included to jumpstart your process. The click arguments have been pre-defined for you.
