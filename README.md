@@ -23,3 +23,12 @@ Take the library you made in the previous step and create a one-page Django webs
 The `import.py` file has been included to jumpstart your process. The click arguments have been pre-defined for you.
 
 The `example_zone.json` is a zone file you can use for practice input.
+
+### Submission
+
+To submit this assessment, do the following:
+
+1. fork this project as a private repo
+2. complete your work
+3. invite these users as contributors: [tsabat](https://github.com/tsabat) and [brno32](https://github.com/brno32)
+4. profit
